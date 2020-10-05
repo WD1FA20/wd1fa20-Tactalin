@@ -1,0 +1,19 @@
+/* Write Grid CSS Styles Here */
+.albums {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 20px;
+}
+
+.album {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    background-color: white;
+    padding: 2rem;
+}
+
+.album__artwork {
+    height: 150px;
+    width: 150px;
+}
