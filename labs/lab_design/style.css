@@ -1,0 +1,40 @@
+body {
+    background-color: #4C4D48;
+}
+
+form {
+    display: grid;
+    padding: 1em;
+    background-color: #1F1E1C;
+    margin: 2rem auto 0 auto;
+    max-width: 500px;
+    border-radius: 15px;
+}
+
+form input {
+    border: 0;
+    padding: 1em;
+    font-size: 15px;
+    font: bold;
+}
+
+form button {
+    border: 0;
+    padding: 1em;
+    background: #7F8F39;
+    text-align: left;
+    font-size: 15px;
+    color: white;
+    font: bold;
+}
+
+form a {
+    text-align: right;
+    padding: .7em;
+    color: #4D4E49;
+}
+
+.si {
+    background: #494945;
+}
+
