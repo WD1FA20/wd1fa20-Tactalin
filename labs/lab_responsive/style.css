@@ -1,3 +1,4 @@
+/*default styling START */
 :root {
     --dark: #343a40;
     --medium: #6c757d;
@@ -6,3 +7,177 @@
     --white: #FFFFFF;
     --btn: #007bff;
 }
+
+html {
+    box-sizing: border-box;
+    font-family: "Roboto", Roboto, Helvetica, Arial, sans-serif;
+    color: var(--text);
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.07);
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 5px 0;
+}
+
+button {
+    background: #007bff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.wrapper {
+    display: grid;
+    grid-gap: 50px;
+}
+/*default styling END */
+
+/*top area stuff*/
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  color: white;
+  font-style: bold;
+}
+
+.navbar a {
+    float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar .special{
+    float: left
+}
+
+.main {
+  margin-top: 50px;
+}
+
+.top {
+    text-align: center;
+}
+
+.hero {
+    min-height: 400px;
+    background: blue url("http://placehold.it/1900x1080");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    border: 5px solid lightgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding 50px;
+    font-size: 30px;
+}
+
+.middle {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.cards {
+  background: white;
+  border: 3px solid lightgrey;
+  border-radius: 5px;
+  min-height: 250px;
+}
+
+.cards h2 {
+    background: lightgrey;
+    padding: 5px 5px 5px 5px;
+}
+
+.cards button {
+    height: 40px;
+    width: 100px;
+    color: white;
+    padding: 10px;
+}
+
+.cards p {
+    background: white;
+    padding: 10px;
+}
+
+.projects {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.projectcards {
+    border: 3px solid lightgrey;
+    min-height: 400px;
+}
+
+.projectcards h2 {
+    color: #007bff;
+    padding: 5px;
+}
+
+.projectcards p {
+    padding: 5px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.details {
+    margin: 10px 0px;
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    grid-template-areas:
+        "left right";
+}
+
+.details img {
+    grid-area: right;
+}
+
+li {
+    margin: 10px 0;
+}
+
+footer button {
+    color: white;
+    background-color: grey;
+    float: right;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(1000px, 1fr));
+}
+
+
+
+
