@@ -1,6 +1,12 @@
 body {
     margin: 0 auto 50px;
     width: 700px;
+    background-color: #A8D1E7;
+    font-family: Padauk;
+}
+
+body header {
+    font-size: 30px;
 }
 
 #main-content {
@@ -41,4 +47,20 @@ body {
 
 #reversed #news {
     margin-left: 0px;
+}
+
+.FAQ {
+    color: #24315e;
+}
+
+.hide1 {
+    display: none;
+}
+
+.hide2 {
+    display: none;
+}
+
+.hide3 {
+    display: none;
 }
