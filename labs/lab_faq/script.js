@@ -1,6 +1,3 @@
-/* For Testing Purposes */
-$('img').remove();
-
 $('#question1').on('click', function() {
     $(this).next().toggleClass('hide1');
 });
